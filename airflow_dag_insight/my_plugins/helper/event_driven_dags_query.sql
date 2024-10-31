@@ -430,5 +430,5 @@ where
     and dag_id not in (
         select distinct x.dep_id
         from
-            all_dependencies_enriched as x
+            all_dependencies_enriched as x 
     )
